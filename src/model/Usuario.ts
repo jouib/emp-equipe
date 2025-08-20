@@ -1,7 +1,7 @@
-import { DataBaseModel } from "./DataBaseModel.js";
+import { DatabaseModel } from "./DataBaseModel.js";
 
 // Recupera conexão com o banco de dados
-const dataBase = new DataBaseModel().pool;
+const dataBase = new DatabaseModel().pool;
 
 /**
  * Classe que representa o usuário do sistema

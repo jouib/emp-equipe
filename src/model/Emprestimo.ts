@@ -1,6 +1,6 @@
-import { DataBaseModel } from "./DataBaseModel.js";
+import { DatabaseModel } from "./DataBaseModel.js";
 
-const dataBase = new DataBaseModel().pool;
+const dataBase = new DatabaseModel().pool;
 
 export class Emprestimo{
 
